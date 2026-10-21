@@ -26,6 +26,7 @@ public class SwaggerConfig {
                                 .name("VentasTech Interno")
                                 .url("https://ventastech.com/license")))
             .servers(List.of(
+					new Server().url("https://app-catalogo-g2fceaddftgaeaed.westus3-01.azurewebsites.net").description("Azure"),
                     new Server().url("http://localhost:8081").description("Desarrollo Local"),
                     new Server().url("http://localhost:8087").description("Desarrollo Local v2"),
                     new Server().url("http://localhost:8096").description("Ambiente QA"),
